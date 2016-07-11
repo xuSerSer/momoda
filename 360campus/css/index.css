@@ -1,0 +1,238 @@
+@charset:"UTF-8";
+/*
+	reset
+*/
+body {	margin:0;
+		background: url(../img/env-bg.png) no-repeat;
+		background-size: cover;
+		font-family: "微软雅黑";}
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+ul {list-style: none;}
+/*
+	herder
+*/
+.header {
+	height: 115px;
+	background: url(../img/header-bg.png) repeat-x 0 0; 
+}
+.header .header-wrap {
+	width: 1000px;
+	height: 100%;
+	margin:0 auto;
+}
+.header .header-wrap .header-top {
+	color: #d0cfcf;
+	line-height: 45px;
+	text-align: right;
+	font-size: 14px;
+}
+.header .header-wrap .header-top a {
+	text-decoration: none;
+	color: #d0cfcf;
+}
+.header .header-wrap .header-top a:hover {
+	color: #ffd200;
+	text-decoration: underline;}
+
+.header .header-wrap .header-top span {
+	margin:0 22px;
+}
+.header .header-wrap .header-top b {
+	font-weight: normal;
+}
+.header .header-wrap .header-nav {
+	height: 68px;
+}
+.header .header-wrap .header-nav .nav-logo {
+	float: left;
+	display: block;
+	height: 68px;
+	width: 200px;
+	background: url(../img/logo.png) no-repeat 0 0;
+}
+.header .header-wrap .header-nav .header-nav-content {
+	padding: 15px 0px 0px 0px;
+	float: left;
+	width: 650px;
+	margin-left: 140px;
+}
+.header .header-wrap .header-nav-content li {
+	float: left;
+	height: 15px;
+	padding: 20px;
+	font-size: 20px;
+}
+.header .header-wrap .header-nav .header-nav-content .active {
+	background: #5baae3;
+	color: #fff;
+}
+.header .header-wrap .header-nav-content li a {
+	text-decoration: none;
+	color: #515566;
+}
+.header .header-wrap .header-nav-content li a:hover {
+	color: #ffd200;
+	text-decoration: underline;
+	transition: all .2s ease-in-out;
+}
+.header .header-wrap .header-nav-content li .active:hover {
+	color: #ffd200;
+	text-decoration: underline;
+	transition: all .2s ease-in-out;
+}
+/*
+	nav-bottom
+*/
+
+.nav-bottom {
+	height: 50px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #5baae3;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+.nav-bottom span {
+	color: #fff;
+	margin: 0px 14px;
+}
+.nav-bottom a {
+	text-decoration: none;
+	color: #fff;
+}
+.nav-bottom .active{
+	color: #ffd200;
+}
+.nav-bottom a:hover {
+	color: #ffd200;
+	text-decoration: underline;
+	transition: all .2s ease-in-out;
+}
+
+/*
+	content
+*/
+.cl {
+	clear: both;
+}
+.content {
+	width: 1014px;
+	margin: 20px auto;
+	/*margin-bottom: 100px;*/
+	background: #fff;
+}
+.content .all {
+	height: 720px;
+	padding: 5px;
+}
+.content li {
+	float: left;
+	width: 240px;
+	height: 645px;
+	margin: 0 5px;
+}
+.content li div {
+	height: 320px;
+	width: 235px;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: #c0c0c0;
+}
+.content .top1 .block1 {
+	background: #f0b49c;
+	padding-top: 20px;
+}
+.content .top1 .job1 {
+	background: #f7d9cd;
+	padding-top: 20px;
+}
+.content .top2 .block2 {
+	background: #9dced4;
+	padding-top: 20px;
+}
+.content .top2 .job2 {
+	background: #cee6e9;
+	padding-top: 20px;
+}
+.content .top3 .block3 {
+	background: #e3ce73;
+	padding-top: 20px;
+}
+.content .top3 .job3 {
+	background: #e3ce73;
+	padding-top: 20px;
+}
+.content .top4 .block4 {
+	background: #bdde6d;
+	padding-top: 20px;
+}
+.content .top4 .job4 {
+	background: #deeeb6;
+	padding-top: 20px;
+}
+.content .top1 .block1 .pic1 {
+	display: block;
+	width: 135px;
+	height: 180px;
+	margin: 0 auto 15px;
+	padding-top:10px; 
+	background: url(../img/job-cate.png) no-repeat 0 0;
+}
+.content .top1:hover .pic1{
+	background-position: 0 -190px;
+}
+.content .top2 .block2 .pic2 {
+	display: block;
+	width: 135px;
+	height: 180px;
+	margin: 0 auto 15px;
+	padding-top:10px; 
+	background: url(../img/job-cate.png) no-repeat -135px 0;
+}
+.content .top2:hover .pic2{
+	background-position: -135px -190px;
+}
+.content .top3 .block3 .pic3 {
+	display: block;
+	width: 135px;
+	height: 180px;
+	margin: 0 auto 15px;
+	padding-top:10px; 
+	background: url(../img/job-cate.png) no-repeat -260px 0;
+}
+.content .top3:hover .pic3{
+	background-position: -260px -190px;
+}
+
+.content .top4 .block4 .pic4 {
+	display: block;
+	width: 135px;
+	height: 180px;
+	margin: 0 auto 15px;
+	padding-top:10px; 
+	background: url(../img/job-cate.png) no-repeat -405px 0;
+}
+.content .top4:hover .pic4{
+	background-position: -405px -190px;
+}
+.content .all li h2 {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.content .all li p {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 14px;
+}
+.content .all a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
